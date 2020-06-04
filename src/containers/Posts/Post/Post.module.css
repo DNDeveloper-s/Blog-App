@@ -1,0 +1,43 @@
+.Post {
+  position: relative;
+  margin: 20px 0;
+  padding: 30px 20px;
+  text-align: left;
+}
+.Post > * {
+  margin-bottom: 20px;
+}
+.Post > .PostTitle {
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.Post > .PostAuthor {
+  color: rgba(133, 133, 133, 0.86);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.Post > .PostAuthor > span {
+  font-weight: 500;
+  color: rgba(133, 133, 133, 0.96);
+}
+.Post > .PostDescription {
+  line-height: 25px;
+  color: rgba(46, 46, 46, 0.93);
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+}
+.Post > .PostTimeStamp {
+  color: rgba(212, 78, 37, 0.87);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+.Post > .ReactButtons {
+  display: flex;
+}
+.Post > .ReactButtons > *:first-child {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=Post.module.css.map */

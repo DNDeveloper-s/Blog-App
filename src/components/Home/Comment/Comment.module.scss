@@ -1,0 +1,26 @@
+.Comment {
+  margin: 0;
+  padding: 5px 15px;
+  font-family: 'Roboto', sans-serif;
+
+  > * {
+    margin-bottom: 4px;
+  }
+
+  > .user {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(62, 62, 62, 0.95);
+  }
+
+  > .message {
+    color: rgba(17, 17, 17, 0.95);
+    font-size: 14px;
+  }
+
+  > .timeStamp {
+    color: rgba(212, 78, 37, 0.87);
+    font-size: 10px;
+    font-weight: 600;
+  }
+}

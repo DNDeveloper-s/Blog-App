@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="504" height="605" viewBox="0 0 504 605">
+    <g id="Group_13" data-name="Group 13" transform="translate(-270 -356)">
+        <g id="blogger" transform="translate(270 356)">
+            <g id="Group_8" data-name="Group 8">
+                <g id="Group_7" data-name="Group 7">
+                    <path id="Path_3" data-name="Path 3" d="M250.8,176H195.6c-10.4,0-19.2,7.6-19.2,18s8.8,18,19.2,18h55.2c10.4,0,19.2-7.6,19.2-18S261.6,176,250.8,176Z" fill="#7fb424"/>
+                </g>
+            </g>
+            <g id="Group_10" data-name="Group 10">
+                <g id="Group_9" data-name="Group 9">
+                    <path id="Path_4" data-name="Path 4" d="M308,288H195.6c-10.4,0-19.2,9.6-19.2,20s8.4,20,19.2,20H308c10.4,0,18.8-9.6,18.8-20S318.4,288,308,288Z" fill="#7fb424"/>
+                </g>
+            </g>
+            <g id="Group_12" data-name="Group 12">
+                <g id="Group_11" data-name="Group 11">
+                    <path id="Path_5" data-name="Path 5" d="M377.6,0H126C56.8,0,0,56.8,0,126.4V378c0,69.2,56.8,126,126,126H377.6C447.2,504,504,447.2,504,377.6V126.4C504,56.8,447.2,0,377.6,0Zm31.2,309.6c-.4,54.4-45.2,98.4-100,98.4H194.4C139.6,408,96,364.4,96,310V194c0-54.4,43.6-98,98.4-98H264c25.6,0,63.2,24.4,76.8,53.6,3.6,8,6,9.2,8.8,33.6,1.6,12.4,2.4,21.6,8,26.8,8,7.2,37.2,2.4,43.2,6.8l4.4,3.6L408,226l.8,4v79.6Z" fill="#7fb424"/>
+                </g>
+            </g>
+        </g>
+        <text id="DNDevBlog" transform="translate(302 941)" fill="#7fb424" font-size="80" font-family="Gadugi-Bold, Gadugi" font-weight="700"><tspan x="0" y="0">DNDevBlog</tspan></text>
+    </g>
+</svg>

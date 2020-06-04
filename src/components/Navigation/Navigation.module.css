@@ -1,0 +1,17 @@
+.Navigation {
+  margin: 0;
+  height: 70px;
+  width: 100%;
+  background: #2a3640;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+
+.Logo {
+  height: 60px;
+  width: 50px;
+}
+
+/*# sourceMappingURL=Navigation.module.css.map */

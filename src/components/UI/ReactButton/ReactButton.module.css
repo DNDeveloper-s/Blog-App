@@ -1,0 +1,55 @@
+.ReactButton {
+  margin: 0;
+  padding: 4px 14px;
+  background: #2a3640;
+  display: flex;
+  align-items: center;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #eee;
+  font-size: 90%;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.2), inset 0px 2px 0px rgba(255, 255, 255, 0.2), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+  user-select: none;
+}
+.ReactButton:hover {
+  background: rgba(54, 70, 83, 0.94);
+}
+.ReactButton.Like {
+  padding: 2px 14px 4px;
+}
+.ReactButton.Like > p {
+  padding: 3px 0 0 0;
+}
+.ReactButton.Liked {
+  background: #ff6341;
+}
+.ReactButton.Liked > img {
+  animation: liked 0.2s ease-in-out forwards;
+}
+.ReactButton > p {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  padding: 0;
+  line-height: 21px;
+}
+.ReactButton > img {
+  height: 13px;
+  margin-right: 5px;
+}
+
+@keyframes liked {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*# sourceMappingURL=ReactButton.module.css.map */

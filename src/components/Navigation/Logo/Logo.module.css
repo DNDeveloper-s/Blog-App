@@ -1,0 +1,10 @@
+.Logo {
+  width: auto;
+  height: 100%;
+}
+.Logo > img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=Logo.module.css.map */

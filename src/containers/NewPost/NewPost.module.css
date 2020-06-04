@@ -1,0 +1,36 @@
+.NewPost {
+  margin: 0 auto;
+  padding: 30px;
+  width: 100%;
+  max-width: 900px;
+  font-family: Roboto, sans-serif;
+}
+
+.inputControl {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.inputControl > label {
+  color: #0c0c0cbf;
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.inputControl > textarea,
+.inputControl > input {
+  resize: none;
+  font-size: 14px;
+  padding: 7px 10px;
+  border: 1px solid rgba(138, 140, 141, 0.63);
+  outline: none;
+  font-family: Roboto, sans-serif;
+}
+.inputControl > textarea:focus,
+.inputControl > input:focus {
+  border: 1px solid #3498db;
+  box-shadow: 0 0 5px #2da0fb;
+}
+
+/*# sourceMappingURL=NewPost.module.css.map */

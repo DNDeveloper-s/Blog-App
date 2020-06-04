@@ -1,0 +1,52 @@
+.ViewFullPost {
+  position: relative;
+  margin: 20px 0;
+  padding: 30px 20px;
+  text-align: left;
+
+  > * {
+    margin-bottom: 20px;
+  }
+
+  > .PostTitle {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  > .PostAuthor {
+    color: rgba(133, 133, 133, 0.86);
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+    > span {
+      font-weight: 500;
+      color: rgba(133, 133, 133, 0.96);
+    }
+  }
+
+  > .PostDescription {
+    line-height: 25px;
+    color: rgba(46, 46, 46, 0.93);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px ;
+  }
+
+  > .PostTimeStamp {
+    color: rgba(212, 78, 37, 0.87);
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  > .ReactButtons {
+    display: flex;
+
+    > * {
+
+      &:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+.ViewFullPost {
+  position: relative;
+  margin: 20px 0;
+  padding: 30px 20px;
+  text-align: left;
+}
+.ViewFullPost > * {
+  margin-bottom: 20px;
+}
+.ViewFullPost > .PostTitle {
+  font-size: 30px;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.ViewFullPost > .PostAuthor {
+  color: rgba(133, 133, 133, 0.86);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+}
+.ViewFullPost > .PostAuthor > span {
+  font-weight: 500;
+  color: rgba(133, 133, 133, 0.96);
+}
+.ViewFullPost > .PostDescription {
+  line-height: 25px;
+  color: rgba(46, 46, 46, 0.93);
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 15px;
+}
+.ViewFullPost > .PostTimeStamp {
+  color: rgba(212, 78, 37, 0.87);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+.ViewFullPost > .ReactButtons {
+  display: flex;
+}
+.ViewFullPost > .ReactButtons > *:first-child {
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=ViewFullPost.module.css.map */

@@ -1,0 +1,17 @@
+.DropDownItem {
+  margin: 0;
+
+  > a {
+    text-decoration: none;
+    font-size: 13px;
+    padding: 6px 10px;
+    display: block;
+    transition: .1s ease-in-out;
+    color: rgba(32, 32, 32, 0.86);
+    font-family: Roboto, sans-serif;
+
+    &:hover {
+      background: lightgray;
+    }
+  }
+}

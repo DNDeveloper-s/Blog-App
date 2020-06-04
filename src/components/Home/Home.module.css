@@ -1,0 +1,23 @@
+.Home {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  max-width: 900px;
+}
+
+.NewPostButton {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=Home.module.css.map */
